@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-image: url(atardecer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+span {
+    display: block;
+    color: rgb(247, 244, 244);
+    font-size: 2em;
+    text-shadow: 0 6px 5px rgb(204, 181, 181);
+    font-weight: bold;
+}
+
+#data {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: white;
+}
+
+#status {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: rgb(199, 215, 230);
+    font-weight: bold;
+}
+
+#fireStatus {
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background-color: #ffcccb;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #f44336;
+    color: #f44336;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+#smokeStatus {
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background-color: #f0e68c;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ffeb3b;
+    color: #818071;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: rgb(193, 130, 235);
+    color: rgb(27, 23, 23);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #4574a0;
+    color: white;
+}
+
+/* Estilos para los nombres aleatorios */
+#randomNames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.name {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgba(66, 60, 60, 0.5);
+    border-radius: 20px;
+    color: #b9c9d8;
+    transition: transform 0.3s ease, opacity 0.5s ease;
+}
+
+.name:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+    color: white;
+    background-color: rgba(189, 128, 128, 0.5);
+}

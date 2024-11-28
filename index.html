@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Monitor de Humo y Fuego</title>
+</head>
+
+<body>
+    <span>Sensor de Humo y Fuego</span>
+    <button id="connectButton">Conectar puerto</button>
+
+    <div id="data">
+        Esperando datos del Arduino...
+    </div>
+
+    <div id="status"></div>
+
+    <div id="fireStatus" style="display: none;">
+        ¡Fuego detectado! Se ha activado la alarma.
+    </div>
+
+    <div id="smokeStatus" style="display: none;">
+        ¡Humo detectado! Se ha activado la alarma.
+    </div>
+
+    <div id="randomNames">
+    </div>
+</body>
+
+</html>
